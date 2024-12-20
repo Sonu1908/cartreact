@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-body-tertiary{
+  background-color: #01252e !important;
+
+}
+.navbar-brand{
+  color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.sonu{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h5{
+  font-size: 1rem;
 }
+
+
+body{
+  background-color: #01252e;
+}
+
+
+.active{
+  background-color:rgb(238, 221, 35);
+}
+
+/* button  */
+.bt-css2 {
+  background: #0f0f0f !important;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  border: 2px solid aquamarine;
+}
+.bt-css2:hover {
+  background: rgb(234, 41, 41) !important;
+  border: 1px solid transparent;
+  color: white;
+ 
+}
+
+
+
+
+
+ .bt-css {
+      background: #0f0f0f !important;
+      border: none;
+      cursor: pointer;
+    }
+  
+
+.card-all:hover .bttn-div {
+  opacity: 1;
+  
+}
+
+
+.card-all::after {
+  content: "";
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: -1;
+ 
+}
+.card-all:hover::after {
+  background-color: #0f0f0f;
+  transition: 0.4s;
+  z-index: 1;
+  opacity: 0.7;
+  height: 400px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.text-card {
+  font-size: 18px;
+  height: 80px;
+}
+.card-all {
+  border: 1px solid aquamarine !important;
+  height: 400px !important;
+  position: relative !important;
+}
+  .bttn-div  {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    opacity: 0;
+  }
+  
+
+    .bt-css:hover {
+      background: transparent !important;
+      border: 3px solid orangered;
+      background-image: linear-gradient(180deg, #4F95DA, yellow) !important;
+      transition: 1s ease-in-out;
+      
+    }
+
+
+
+
+    /* footer */
+
+    .footer-css{
+      background-color: #212121 !important;
+   
+    }
+
+   .footer-css ul li a{
+      text-decoration: none !important;
+      color: white;
+      font-size: 12px;
+      
+    }
+
+    .footer-css ul li a:hover{
+      text-decoration: underline !important;
+     
+    }
+
+    .text-muted{
+      color: #77746f !important;
+    }
+
+
+
+
+    .etxt-2 {
+      font-size: 12px !important;
+    }
+    .phone-text {
+      color: white !important;
+      .pt-2 {
+        font-size: 12px !important;
+      }
+    }
+
+
+
